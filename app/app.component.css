@@ -1,0 +1,288 @@
+/* Add application styles & imports to this file! */
+
+body {
+  flex-wrap: wrap; /*排列自動換行*/
+}
+
+/*導覽列*/
+
+nav {
+  /*測試*/
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+li {
+  float: left;
+  letter-spacing: 0.5em;
+}
+ul li {
+  list-style-type: none;
+}
+.navbar {
+  background-color: black;
+  height: 50px;
+}
+.warp {
+  /*width: 0 auto;*/
+  margin: 0 auto;
+}
+.menu {
+  float: right;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.container {
+  height: 0 auto;
+  /*width: 0 auto;*/
+  margin: 0 auto;
+  position: relative;
+  /*寫一個限制寬度，因為在螢幕上人眼的角度是有限的，設定一個比較舒服的寬度是很重要的事情。*/
+}
+li {
+  float: left;
+  letter-spacing: 0.5em;
+  list-style-type: none;
+}
+
+/*BODY1*/
+.Body1 {
+  height: 750px;
+  margin: 0px;
+}
+.Body1-1 {
+  position: relative;
+}
+.pv {
+  height: 750px;
+  background: url('https://raw.githubusercontent.com/willy90510/test/master/src/assets/%E7%A8%8B%E5%BC%8F%E7%A2%BC%E9%9B%A8.gif')
+    no-repeat center bottom;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  top: 0px;
+  z-index: 9;
+}
+
+/*BODY2*/
+
+.Body2 {
+  height: 700px;
+  margin: 0px;
+  background: rgb(132, 130, 130);
+}
+
+.Body2-1 {
+  position: relative;
+}
+.photo {
+  /*照片*/
+  width: 20%; /*360px*/
+  height: 400px; /*107.1*/ /*400*/
+  position: absolute;
+  top: 10px;
+  /*background:White;*/
+  float: right;
+  right: 5%;
+}
+.selfsay {
+  /*自我介紹*/
+  color: white;
+  padding: 15px;
+  width: 55%;
+  height: 650px;
+  /*overflow: scroll;*/
+  border: 1px solid #ccc;
+  left: 5%;
+  top: 10px;
+  position: absolute;
+  line-height: 8px;
+}
+.birthday {
+  /*來自哪邊*/
+  position: absolute;
+  color: white;
+  padding: 1px;
+  width: 20%;
+  height: 200px;
+  /*overflow: scroll;*/
+  /*border: 1px solid #ccc;*/
+  float: right;
+  right: 5%;
+  top: 415px;
+}
+/* 文字水平置中 */
+.text-h-center {
+  text-align: center;
+}
+
+/* 文字垂直置中 */
+.text-v-center {
+  vertical-align: top;
+}
+.text-v-center:before {
+  content: '';
+  display: inline-block;
+  width: 0 auto;
+  height: 100%;
+  vertical-align: middle;
+}
+.text-v-center p {
+  display: inline-block;
+}
+
+/*BODY3*/
+.Body3 {
+  /*技能*/
+  height: 700px;
+  margin: 0px;
+  background: rgb(218, 217, 217);
+}
+.Body3-1 {
+  position: relative;
+}
+.Body3-men {
+  width: 0 auto;
+  height: 0 auto;
+  position: absolute;
+  left: 6.5%; /*28%*/
+  top: 50px;
+}
+.Body3-write {
+  width: 80%;
+  height: 500px;
+  position: absolute;
+  left: 10%;
+  top: 100px;
+  background: rgb(132, 130, 130);
+}
+/*Body3-證照*/
+.license1 {
+  position: absolute;
+  float: left;
+  left: 0%;
+  top: 0px;
+  width: 50%;
+}
+.license1-1 {
+  position: absolute;
+  left: 5%;
+  bottom: 30px;
+  color: white;
+  font-size: 100%;
+}
+.license2 {
+  position: absolute;
+  float: right;
+  right: 0%;
+  top: 0px;
+  width: 50%;
+}
+.license2-1 {
+  position: absolute;
+  right: 5%;
+  bottom: 30px;
+  color: white;
+  font-size: 100%;
+}
+/*body4*/
+.Body4 {
+  /*作品*/
+  height: 700px;
+  margin: 0px;
+  background: rgb(218, 217, 217);
+}
+.Body4-1 {
+  position: relative;
+}
+.Body4-2-1 {
+  width: 21%;
+  height: 490px;
+  position: absolute;
+  float: left;
+  left: 10%;
+  top: 100px;
+  background: rgb(132, 130, 130);
+}
+.Body4-2-1-1 {
+  width: 100%;
+  height: 200px;
+  float: left;
+  left: 10%;
+  top: 300px;
+  background: rgb(132, 130, 130);
+}
+.Body4-2-2 {
+  width: 21%;
+  height: 490px;
+  position: absolute;
+  float: right;
+  right: 10%;
+  top: 100px;
+  background: rgb(132, 130, 130);
+}
+.Body4-2-2-1 {
+  width: 100%;
+  height: 200px;
+  float: right;
+  right: 10%;
+  top: 300px;
+  background: rgb(132, 130, 130);
+}
+/*end*/
+.end {
+  border: 1px solid black;
+  height: 250px;
+  margin: 0px;
+  font-size: 16px;
+  background: black;
+  position: relative;
+}
+.call {
+  width: 0 auto;
+  height: 70px;
+  position: absolute;
+  left: 22%;
+  top: 20px;
+  background: black;
+}
+.call1 {
+  width: 0 auto;
+  height: 50px;
+  position: absolute;
+  left: 22%; /*550px;*/
+  top: 100px;
+  background: black;
+}
+.call2 {
+  width: 0 auto;
+  height: 50px;
+  position: absolute;
+  left: 22%;
+  top: 150px;
+  background: black;
+}
+/*Footer*/
+.Footer {
+  width: 250px;
+  height: 50px;
+  position: absolute;
+  right: 0px;
+  top: 200px;
+  background: black;
+  font-size: 16px;
+  text-align: right;
+}
+/*雜*/
+p {
+  /*統一文字*/
+  font-family: 標楷體;
+  word-wrap: break-word;
+}
+h1 {
+  text-align: center;
+  line-height: 25px;
+  font-family: 標楷體;
+  font-size: 250%; /*36px*/
+}
