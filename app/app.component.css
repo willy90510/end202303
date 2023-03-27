@@ -1,11 +1,8 @@
-/* Add application styles & imports to this file! */
-
+/*總區*/
 body {
   flex-wrap: wrap; /*排列自動換行*/
 }
-
 /*導覽列*/
-
 nav {
   /*測試*/
   position: sticky;
