@@ -162,7 +162,7 @@ li {
   position: absolute;
   left: 5%;
   top: 65px;
-  background: rgb(132, 130, 130);
+  background: rgb(206, 206, 206);
   width: 20%;
   /*height: 400px;*/
 }
@@ -170,21 +170,21 @@ li {
   position: absolute;
   left: 30%;
   top: 65px;
-  background: rgb(132, 130, 130);
+  background: rgb(206, 206, 206);
   width: 20%;
 }
 .case3 {
   position: absolute;
   left: 55%;
   top: 65px;
-  background: rgb(132, 130, 130);
+  background: rgb(206, 206, 206);
   width: 20%;
 }
 .case4 {
   position: absolute;
   left: 78%;
   top: 65px;
-  background: rgb(132, 130, 130);
+  background: rgb(206, 206, 206);
   width: 20%;
 }
 /*Body3-興趣*/
