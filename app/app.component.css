@@ -137,7 +137,7 @@ li {
   /*技能*/
   height: 700px;
   margin: 0px;
-  background: rgb(218, 217, 217);
+  background: rgb(207, 201, 201);
 }
 .Body3-1 {
   position: relative;
@@ -155,7 +155,7 @@ li {
   position: absolute;
   left: 10%;
   top: 100px;
-  background: rgb(132, 130, 130);
+  background: rgb(206, 206, 206);
 }
 /*Body3-技能*/
 .case1 {
