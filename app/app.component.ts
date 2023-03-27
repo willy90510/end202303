@@ -8,7 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   nameParent = 'Angular 5';
   showArea = 0;
-
   onClick(number: number) {
     switch (number) {
       case 1:
