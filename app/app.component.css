@@ -42,7 +42,6 @@ li {
   letter-spacing: 0.5em;
   list-style-type: none;
 }
-
 /*BODY1*/
 .Body1 {
   height: 750px;
@@ -61,15 +60,12 @@ li {
   top: 0px;
   z-index: 9;
 }
-
 /*BODY2*/
-
 .Body2 {
   height: 700px;
   margin: 0px;
   background: rgb(132, 130, 130);
 }
-
 .Body2-1 {
   position: relative;
 }
@@ -109,13 +105,12 @@ li {
   right: 5%;
   top: 415px;
 }
-/* 文字水平置中 */
 .text-h-center {
+  /* 文字水平置中 */
   text-align: center;
 }
-
-/* 文字垂直置中 */
 .text-v-center {
+  /* 文字垂直置中 */
   vertical-align: top;
 }
 .text-v-center:before {
@@ -128,7 +123,6 @@ li {
 .text-v-center p {
   display: inline-block;
 }
-
 /*BODY3*/
 .Body3 {
   /*技能*/
