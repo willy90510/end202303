@@ -84,7 +84,7 @@ li {
   padding: 15px;
   width: 55%;
   height: 650px;
-  /*overflow: hidden;*/
+  overflow: hidden;
   overflow-y: auto;
   border: 1px solid #ccc;
   left: 5%;
@@ -99,7 +99,6 @@ li {
   padding: 1px;
   width: 20%;
   height: 200px;
-  /*overflow: hidden;*/
   overflow-y: auto;
   float: right;
   right: 5%;
