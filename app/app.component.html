@@ -15,14 +15,14 @@
           <div class="navbar">
             <div class="container">
               <div class="logo">
-                  <div>
-                    <img
-                      src="https://raw.githubusercontent.com/willy90510/test/master/src/assets/logo.png"
-                      alt="no"
-                      width="45"
-                      height="45"
-                    />
-                  </div>
+                <div>
+                  <img
+                    src="https://raw.githubusercontent.com/willy90510/test/master/src/assets/logo.png"
+                    alt="no"
+                    width="45"
+                    height="45"
+                  />
+                </div>
               </div>
               <ul class="menu">
                 <li><a href="#a1" style="color: white">首頁</a></li>
@@ -309,7 +309,7 @@
                     </div>
                     <br /><br /><br />
                     <ng-container *ngFor="let item of tabList">
-                      <a *ngIf="item.active">{{ item.text }}</a>
+                      <p *ngIf="item.active">{{ item.text }}</p>
                     </ng-container>
                   </div>
                   <div *ngSwitchDefault>
