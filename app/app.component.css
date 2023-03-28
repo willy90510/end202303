@@ -135,10 +135,11 @@ li {
 }
 .Body3-men {
   width: 0 auto;
-  height: 0 auto;
+  height: 50px;
   position: absolute;
-  left: 10%; /*28%*/
-  top: 50px;
+  top: 30px;
+  /*float: right;*/
+  right: 28%;
 }
 .Body3-write {
   width: 80%;
@@ -153,7 +154,6 @@ li {
   position: absolute;
   left: 5%;
   top: 58px;
-  background: rgb(185, 185, 185);
   width: 20%;
   /*height: 400px;*/
 }
@@ -161,21 +161,18 @@ li {
   position: absolute;
   left: 30%;
   top: 58px;
-  background: rgb(185, 185, 185);
   width: 20%;
 }
 .case3 {
   position: absolute;
   left: 55%;
   top: 58px;
-  background: rgb(185, 185, 185);
   width: 20%;
 }
 .case4 {
   position: absolute;
   left: 78%;
   top: 58px;
-  background: rgb(185, 185, 185);
   width: 20%;
 }
 /*Body3-興趣*/
@@ -448,7 +445,7 @@ a.active {
   width: 0 auto;
   height: 70px;
   position: absolute;
-  left: 40%;
+  left: 10%;
   top: 80px;
   background: black;
 }
@@ -464,7 +461,7 @@ a.active {
   width: 0 auto;
   height: 50px;
   position: absolute;
-  left: 60%;
+  right: 10%;
   top: 80px;
   background: black;
 }
@@ -489,14 +486,14 @@ h1 {
   text-align: center;
   line-height: 25px;
   font-family: 標楷體;
-  font-size: 250%; /*36px*/
+  font-size: 4vmin; /*36px*/
 }
 h5 {
-  font-size: 250%;
+  font-size: 4vmin;
 }
 h4 {
   font-family: 標楷體;
-  font-size: 28px;
+  font-size: 4vmin;
   color: white;
   line-height: 150%;
 }
