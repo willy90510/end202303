@@ -18,7 +18,7 @@ ul li {
 }
 .navbar {
   background-color: black;
-  height: 50px;
+  height: 57px;
 }
 .warp {
   /*width: 0 auto;*/
@@ -58,7 +58,6 @@ li {
   position: relative;
   overflow: hidden;
   top: 0px;
-  z-index: 9;
 }
 /*BODY2*/
 .Body2 {
@@ -128,7 +127,7 @@ li {
   /*技能*/
   height: 700px;
   margin: 0px;
-  background: rgb(207, 201, 201);
+  background: rgb(218, 217, 217);
 }
 .Body3-1 {
   position: relative;
@@ -137,45 +136,45 @@ li {
   width: 0 auto;
   height: 0 auto;
   position: absolute;
-  left: 6.5%; /*28%*/
+  left: 10%; /*28%*/
   top: 50px;
 }
 .Body3-write {
   width: 80%;
-  height: 580px;
+  height: 540px;
   position: absolute;
   left: 10%;
   top: 100px;
-  background: rgb(206, 206, 206);
+  background: rgb(185, 185, 185);
 }
 /*Body3-技能*/
 .case1 {
   position: absolute;
   left: 5%;
-  top: 65px;
-  background: rgb(206, 206, 206);
+  top: 58px;
+  background: rgb(185, 185, 185);
   width: 20%;
   /*height: 400px;*/
 }
 .case2 {
   position: absolute;
   left: 30%;
-  top: 65px;
-  background: rgb(206, 206, 206);
+  top: 58px;
+  background: rgb(185, 185, 185);
   width: 20%;
 }
 .case3 {
   position: absolute;
   left: 55%;
-  top: 65px;
-  background: rgb(206, 206, 206);
+  top: 58px;
+  background: rgb(185, 185, 185);
   width: 20%;
 }
 .case4 {
   position: absolute;
   left: 78%;
-  top: 65px;
-  background: rgb(206, 206, 206);
+  top: 58px;
+  background: rgb(185, 185, 185);
   width: 20%;
 }
 /*Body3-興趣*/
@@ -326,6 +325,41 @@ li {
   overflow: hidden;
 }
 /*Body3-方向*/
+
+h2 {
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #009688;
+}
+
+.container11 {
+  position: absolute;
+  float: left;
+  left: 33%;
+}
+
+a {
+  padding: 1rem 2rem;
+  color: black;
+  border-bottom: 3px solid transparent;
+  text-decoration: none;
+}
+a:hover,
+a.active {
+  background-color: rgb(255, 254, 254, 0.3);
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+a:hover {
+  border-bottom: 3px solid #eee;
+}
+
+a.active {
+  border-bottom: 3px solid #009688;
+}
 
 /*Body3-證照*/
 .license1 {
