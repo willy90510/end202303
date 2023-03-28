@@ -84,7 +84,8 @@ li {
   padding: 15px;
   width: 55%;
   height: 650px;
-  /*overflow: scroll;*/
+  /*overflow: hidden;
+  overflow-y: auto;*/
   border: 1px solid #ccc;
   left: 5%;
   top: 10px;
@@ -98,8 +99,8 @@ li {
   padding: 1px;
   width: 20%;
   height: 200px;
-  /*overflow: scroll;*/
-  /*border: 1px solid #ccc;*/
+  /*overflow: hidden;
+  overflow-y: auto;*/
   float: right;
   right: 5%;
   top: 415px;
