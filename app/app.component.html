@@ -307,9 +307,10 @@
                         </ng-container>
                       </ul>
                     </div>
-                    <br /><br /><br />
                     <ng-container *ngFor="let item of tabList">
-                      <p *ngIf="item.active">{{ item.text }}</p>
+                      <h6>
+                        <p *ngIf="item.active">{{ item.text }}</p>
+                      </h6>
                     </ng-container>
                   </div>
                   <div *ngSwitchDefault>
