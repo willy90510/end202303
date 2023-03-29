@@ -370,7 +370,7 @@ a.active {
 }
 .license1-1 {
   position: absolute;
-  left: 5%;
+  left: 6%;
   bottom: 10px;
   color: white;
   font-size: 100%;
@@ -378,13 +378,13 @@ a.active {
 .license2 {
   position: absolute;
   float: right;
-  right: 0%;
+  right: -0.5%;
   top: 0px;
   width: 50%;
 }
 .license2-1 {
   position: absolute;
-  right: 5%;
+  right: 6%;
   bottom: 10px;
   color: white;
   font-size: 100%;
@@ -513,4 +513,14 @@ h6 {
 }
 h7 {
   font-family: 標楷體;
+}
+
+.qqq {
+  transition: all 0.2s linear;
+}
+
+.qqq:hover {
+  transform: scale(1.25);
+  transition: all 0.2s linear;
+  z-index: 8;
 }
