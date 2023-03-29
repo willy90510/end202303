@@ -94,7 +94,7 @@
                     <div
                       style="
                         line-height: 150%;
-                        font-size: 2%;
+                        font-size: 0.25vmin;
                         border: 1px #ccc solid;
                       "
                     >
@@ -105,8 +105,6 @@
                       <p>夢想:</p>
                       <br />
                       <p>可以安心地度過一生</p>
-                      <br />
-                      <p>Line:willy90510</p>
                       <br />
                       <p>FB:洪祥維</p>
                       <br />
@@ -289,7 +287,6 @@
                     </div>
                   </div>
                   <div *ngSwitchCase="3">
-                    <br />
                     <h1>方向:</h1>
                     <div class="container11">
                       <ul>
@@ -306,6 +303,7 @@
                         </ng-container>
                       </ul>
                     </div>
+                    <br />
                     <ng-container *ngFor="let item of tabList">
                       <h6>
                         <p *ngIf="item.active">{{ item.text }}</p>

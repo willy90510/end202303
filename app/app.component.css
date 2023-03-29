@@ -99,10 +99,10 @@ li {
   color: white;
   padding: 1px;
   width: 20%;
-  height: 200px;
+  height: 50%;
   float: right;
   right: 5%;
-  top: 415px;
+  top: 400px;
 }
 .text-h-center {
   /* 文字水平置中 */
@@ -138,8 +138,8 @@ li {
   position: absolute;
   top: 30px;
   /*float: right;*/
-  border: 1px solid #ccc;
-  right: 32%;
+  /*border: 1px solid #ccc;*/
+  right: 33%;
 }
 .Body3-write {
   width: 80%;
@@ -334,8 +334,9 @@ h2 {
 
 .container11 {
   position: absolute;
-  left: 32%;
+  left: 1%;
   width: 0 auto;
+  font-size: 4vmin;
 }
 
 a {
@@ -494,7 +495,7 @@ h1 {
   text-align: center;
   line-height: 25px;
   font-family: 標楷體;
-  font-size: 4vmin; /*36px*/
+  font-size: 5vmin; /*36px*/
 }
 h5 {
   font-size: 4vmin;
@@ -508,7 +509,7 @@ h4 {
 
 h6 {
   font-family: 標楷體;
-  font-size: 5vmin;
+  font-size: 4vmin;
 }
 h7 {
   font-family: 標楷體;

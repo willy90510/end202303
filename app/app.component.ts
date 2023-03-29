@@ -10,7 +10,7 @@ export class AppComponent {
     {
       name: '過去',
       active: true,
-      text: '  曾就讀於永慶高中、大林國中、排路國小，國小到國中都是桌球隊的隊員。   即將畢業於長榮大學資訊工程學系，學過以下；Python、JAVA、C++、HTML & CSS、PHP & MySQL、JavaScript、Android studio、Arduino、Photo shop和Illustrator等……    也曾接觸過Maya、Unity、PS和Adobe Illustrator等……',
+      text: '曾就讀於永慶高中、大林國中、排路國小，國小到國中都是桌球隊的隊員。   即將畢業於長榮大學資訊工程學系，學過以下；Python、JAVA、C++、HTML & CSS、PHP & MySQL、JavaScript、Android studio、Arduino、Photo shop和Illustrator等……    也曾接觸過Maya、Unity、PS和Adobe Illustrator等……',
     },
     {
       name: '現在目標',
