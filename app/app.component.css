@@ -404,8 +404,8 @@ a.active {
   height: 490px;
   position: absolute;
   float: left;
-  left: 10%;
-  top: 100px;
+  left: 15%;
+  top: 80px;
   background: rgb(132, 130, 130);
 }
 .Body4-2-1-1 {
@@ -414,7 +414,7 @@ a.active {
   float: left;
   margin: 0 auto;
   left: 10%;
-  top: 300px;
+  top: 280px;
   background: rgb(132, 130, 130);
 }
 .Body4-2-2 {
@@ -422,8 +422,8 @@ a.active {
   height: 490px;
   position: absolute;
   float: right;
-  right: 10%;
-  top: 100px;
+  right: 15%;
+  top: 80px;
   background: rgb(132, 130, 130);
 }
 .Body4-2-2-1 {
@@ -433,16 +433,34 @@ a.active {
   right: 0%;
   /*right: 10%;*/
   margin: 0 auto;
-  top: 300px;
+  top: 280px;
   background: rgb(132, 130, 130);
 }
-
+/*時間*/
 .peoplenumber {
   position: absolute;
-  top: 650px;
+  width: 0 auto;
+  height: 0 auto;
+  top: 578px;
   float: right;
   right: 1%;
   z-index: 8;
+  background: rgb(56, 56, 56);
+  border: 2px solid #5aff55;
+  padding: 0.05rem 0.5rem;
+  text-align: center;
+}
+
+.time p {
+  font-size: 2.5vmin;
+  font-weight: bold;
+  color: #5aff55;
+}
+
+.date p {
+  color: #eee;
+  font-size: 2.5vmin;
+  margin-top: 0px;
 }
 /*end*/
 .end {

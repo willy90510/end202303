@@ -52,4 +52,14 @@ export class AppComponent {
         break;
     }
   }
+  today: Date;
+
+  constructor() {}
+
+  ngOnInit(): void {
+    this.today = new Date();
+    setInterval(() => {
+      this.today = new Date();
+    }, 1000);
+  }
 }
