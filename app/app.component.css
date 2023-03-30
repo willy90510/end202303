@@ -137,13 +137,13 @@ li {
   height: 50px;
   position: absolute;
   top: 30px;
+  right: 33%;
   /*float: right;*/
   /*border: 1px solid #ccc;*/
-  right: 33%;
 }
 .Body3-write {
   width: 80%;
-  height: 540px;
+  height: 500px;
   position: absolute;
   left: 10%;
   top: 100px;
@@ -361,32 +361,41 @@ a.active {
 }
 
 /*Body3-證照*/
+/*.license{
+  width: 80%;
+  height: 500px;
+  background: rgb(185, 185, 185);
+}*/
 .license1 {
   position: absolute;
   float: left;
-  left: 0%;
-  top: 0px;
-  width: 52%;
+  right: 50%;
+  top: 16%;
+  width: 0 auto;
+  height: 0 auto;
+  text-align: center;
 }
-.license1-1 {
+/*.license1-1 {
   position: absolute;
   left: 3%;
-  bottom: 10px;
+  bottom: -1%;
   color: white;
-}
+}*/
 .license2 {
   position: absolute;
   float: right;
-  right: -5%;
-  top: 0px;
-  width: 52%;
+  left: 50%;
+  top: 16%;
+  width: 0 auto;
+  height: 0 auto;
+  text-align: center;
 }
-.license2-1 {
+/*.license2-1 {
   position: absolute;
   right: 3%;
-  bottom: 10px;
+  top:-1%;
   color: white;
-}
+}*/
 /*body4*/
 .Body4 {
   /*作品*/
@@ -533,7 +542,7 @@ h6 {
 }
 
 .qqq:hover {
-  transform: scale(1.25);
+  transform: scale(1.5);
   transition: all 0.2s linear;
   z-index: 8;
 }
