@@ -18,7 +18,7 @@ ul li {
 }
 .navbar {
   background-color: black;
-  height: 57px;
+  height: 44.5px;
 }
 .warp {
   /*width: 0 auto;*/
@@ -477,27 +477,29 @@ a.active {
   font-size: 16px;
   background: black;
   position: relative;
+  text-align: center;
 }
 .call {
   width: 0 auto;
-  height: 70px;
+  height: 0 auto;
   position: absolute;
-  left: 5%;
-  top: 80px;
+  left: 36%;
+  right: 36%;
+  top: 0px;
 }
 .call1 {
   width: 0 auto;
   height: 50px;
   position: absolute;
   left: 50%; /*550px;*/
-  top: 80px;
+  top: 90px;
 }
 .call2 {
   width: 0 auto;
   height: 50px;
   position: absolute;
-  right: 5%;
-  top: 80px;
+  right: 50%;
+  top: 90px;
 }
 /*Footer*/
 .Footer {
