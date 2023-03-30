@@ -366,28 +366,26 @@ a.active {
   float: left;
   left: 0%;
   top: 0px;
-  width: 50%;
+  width: 52%;
 }
 .license1-1 {
   position: absolute;
-  left: 6%;
+  left: 3%;
   bottom: 10px;
   color: white;
-  font-size: 100%;
 }
 .license2 {
   position: absolute;
   float: right;
   right: -5%;
   top: 0px;
-  width: 50%;
+  width: 52%;
 }
 .license2-1 {
   position: absolute;
-  right: 6%;
+  right: 3%;
   bottom: 10px;
   color: white;
-  font-size: 100%;
 }
 /*body4*/
 .Body4 {
@@ -516,7 +514,7 @@ h1 {
   font-size: 5vmin; /*36px*/
 }
 h5 {
-  font-size: 4vmin;
+  font-size: 3.2vmin;
 }
 h4 {
   font-family: 標楷體;
